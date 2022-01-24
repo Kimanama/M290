@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="contact-client/style/input-form.css" />
+    <title>Contact form</title>
+</head>
+<header>
+    <p> Modul 290 von Mai Mangtshang und Salome Ruetsche</p>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="index.html">Home</a></li>
+        <li class="list-inline-item"><a href="login.html">Login</a></li>
+    </ul>
+</header>
+<body>
+<div class="container">
+    <form id="form" class="form">
+        <h2>Bitte registriere dich</h2>
+
+        <div class="form-control">
+            <label for="firstname">Vorname</label>
+            <input type="text"  id="firstname" placeholder="Vorname" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="lastname">Nachname</label>
+            <input type="text"  id="lastname" placeholder="Nachname" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="username">Benutzername</label>
+            <input type="text" id="username" placeholder="Benutzername" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="number">Telefonnummer</label>
+            <input type="text" id="number" placeholder="Telefonnummer" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="email">Mailadresse</label>
+            <input type="text" id="email" placeholder="Mailadresse" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="password">Passwort</label>
+            <input type="password" id="password" placeholder="Passwort" />
+            <small>Error message</small>
+        </div>
+
+        <button type="submit">Absenden</button>
+    </form>
+</div>
+
+<div class="footer-basic">
+    <script src="contact-client/script/network.js"></script>
+    <script src="contact-client/script/validate-inputs.js"></script>
+    <script src="contact-client/script/ui.js"></script>
+</div>
+</body>
+<footer>
+    <div class="footer-basic">
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="login.html">Login</a></li>
+        </ul>
+        <p class="copyright">Modul 290 - Mai Mangtshang - Salome Ruetsche</p>
+    </div>
+</footer>
+
+</html>
