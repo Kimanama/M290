@@ -16,7 +16,7 @@ img {
 
 body {
     background-color: black;
-    background-image: url("../contact-client/img/pizza2.png");
+    background-image: url("../../contact-client/img/pizza2.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: verdana;
